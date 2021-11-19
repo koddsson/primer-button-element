@@ -1,21 +1,21 @@
-# &lt;custom-element&gt; element
+# &lt;primer-button&gt; element
 
 Boilerplate for creating a custom element.
 
 ## Installation
 
 ```
-$ npm install @github/custom-element-element
+$ npm install @koddsson/primer-button-element
 ```
 
 ## Usage
 
 ```js
-import '@github/custom-element-element'
+import '@koddsson/primer-button-element'
 ```
 
 ```html
-<custom-element></custom-element>
+<primer-button></primer-button>
 ```
 
 ## Browser support

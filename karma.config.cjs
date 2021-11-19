@@ -1,8 +1,8 @@
-module.exports = function(config) {
+module.exports = function (config) {
   config.set({
     frameworks: ['mocha', 'chai'],
     files: [
-      {pattern: 'dist/custom-element.js', type: 'module'},
+      {pattern: 'dist/*.js', type: 'module'},
       {pattern: 'test/test.js', type: 'module'}
     ],
     reporters: ['mocha'],

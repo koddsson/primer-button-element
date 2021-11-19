@@ -1,13 +1,13 @@
 {
-  "name": "@github/custom-element-element",
+  "name": "@koddsson/primer-button-element",
   "version": "0.0.1",
-  "description": "Boilerplate for creating a custom element.",
-  "main": "dist/custom-element.js",
-  "module": "dist/custom-element.js",
+  "description": "A implementation of a Primer Button as a Web Component",
+  "main": "dist/primer-button.js",
+  "module": "dist/primer-button.js",
   "type": "module",
-  "types": "dist/custom-elements.d.ts",
+  "types": "dist/primer-buttons.d.ts",
   "license": "MIT",
-  "repository": "github/custom-element-boilerplate",
+  "repository": "koddsson/primer-button-element",
   "files": [
     "dist"
   ],
@@ -18,8 +18,7 @@
     "build": "tsc",
     "pretest": "npm run build",
     "test": "karma start karma.config.cjs",
-    "prepublishOnly": "npm run build",
-    "postpublish": "npm publish --ignore-scripts --@github:registry='https://npm.pkg.github.com'"
+    "prepublishOnly": "npm run build"
   },
   "prettier": "@github/prettier-config",
   "devDependencies": {

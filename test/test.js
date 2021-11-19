@@ -1,20 +1,20 @@
-describe('custom-element', function () {
+describe('primer-button', function () {
   describe('element creation', function () {
     it('creates from document.createElement', function () {
-      const el = document.createElement('custom-element')
-      assert.equal('CUSTOM-ELEMENT', el.nodeName)
+      const el = document.createElement('primer-button')
+      assert.equal('PRIMER-BUTTON', el.nodeName)
     })
 
     it('creates from constructor', function () {
-      const el = new window.CustomElementElement()
-      assert.equal('CUSTOM-ELEMENT', el.nodeName)
+      const el = new window.PrimerButtonElement()
+      assert.equal('PRIMER-BUTTON', el.nodeName)
     })
   })
 
   describe('after tree insertion', function () {
     beforeEach(function () {
       document.body.innerHTML = `
-        <custom-element></custom-element>
+        <primer-button></primer-button>
       `
     })
 
@@ -23,7 +23,7 @@ describe('custom-element', function () {
     })
 
     it('initiates', function () {
-      const ce = document.querySelector('custom-element')
+      const ce = document.querySelector('primer-button')
       assert.equal(ce.textContent, ':wave:')
     })
   })
