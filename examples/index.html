@@ -5,11 +5,41 @@
     <title>primer-button demo</title>
   </head>
   <body>
-    <primer-button></primer-button>
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Normal</th>
+          <th>Disabled</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Base button
+          <td>
+            <primer-button>Submit</primer-button>
+          </td>
+          <td>
+            <primer-button disabled>Submit</primer-button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Primary button
+          <td>
+            <primer-button primary>Submit</primer-button>
+          </td>
+          <td>
+            <primer-button primary disabled>Submit</primer-button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
 
     <script type="module">
-      // import 'https://unpkg.com/@koddsson/primer-button-boilerplate@latest/dist/primer-button.js'
-      import '../dist/primer-button.js'
+      // import 'https://unpkg.com/@koddsson/primer-button-boilerplate@latest/dist/primer-button-element.js'
+      import '../dist/primer-button-element.js'
     </script>
   </body>
 </html>
