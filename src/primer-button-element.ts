@@ -79,10 +79,9 @@ class PrimerButtonElement extends HTMLElement {
         --color-btn-bg: #94d3a2;
       }
 
-<style>
-.btn:disabled, .btn.disabled, .btn[aria-disabled=true] {
-    cursor: default;
-}
+      .btn:disabled, .btn.disabled, .btn[aria-disabled=true] {
+        cursor: default;
+      }
     </style>
     <button><slot></slot></button>
     `.trim()
